@@ -36,7 +36,7 @@ CONTENT_STYLE = {
 sidebar = html.Div(
     [   
         html.Img(src=logo, height='25px', style={'margin-bottom':'5rem'}),
-        html.H1("DOI PROTOTYPE", style={'font-family':'Roboto Mono', 'color':'#F0F0F0', 'margin-bottom':0}),
+        html.H1("COURSE COMPETENCY PROTOTYPE", style={'font-family':'Roboto Mono', 'color':'#F0F0F0', 'margin-bottom':0}),
         html.Hr(),
         html.P(
             "Augmented annotation and simple dashboard demo", className="lead",

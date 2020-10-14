@@ -65,7 +65,7 @@ def display_page(pathname):
     if pathname == '/augmented-annotation':
         return sme_annotation.layout
     else:
-        return "404 Page Error: Page Not Found"
+        return sme_annotation.layout
 
 
 if __name__ == '__main__':
